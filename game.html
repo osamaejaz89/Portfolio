@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="game.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"
+    /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Belleza&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular|GeorgiaPro:regular"
+      media="screen"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="game.js"></script>
+
+    <title></title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav id="navbar">
+      <h2>
+        <a href="index.html"><span class="text-primary">Osama </span>Ejaz</a>
+      </h2>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="intro.html">About</a></li>
+        <li><a href="CV/CV.html">CV</a></li>
+        <li><a href="project_proposal.html">Project Proposal</a></li>
+        <li><a href="readme.html">Web Installation</a></li>
+        <li><a href="validation.html">Web Validation</a></li>
+        <li><a href="speedin.php">Calculator</a></li>
+        <li><a class="active" href="game.html">Game</a></li>
+      </ul>
+    </nav>
+    <div class="level">
+      <div class="selection">
+        <label>Choose a level</label>
+        <select class="levels">
+          <option value="level1" selected="selected">Level 1 - 50s</option>
+          <option value="level2">Level 2 - 40s</option>
+          <option value="level3">Level 3 - 30s</option>
+          <option value="level4">Level 4 - 20s</option>
+          <option value="level5">Level 5 - 10s</option>
+        </select>
+      </div>
+
+      <div class="countdown"></div>
+      <div id="score_board">Score:</div>
+    </div>
+
+    <div class="button">
+      <button>Start</button>
+    </div>
+
+    <div id="intro">
+      <center>
+        <iframe
+          width="1200"
+          height="400"
+          src="https://www.youtube.com/embed/mN_e5-fcGU4?autoplay=1&loop=1&playlist=mN_e5-fcGU4"
+        >
+        </iframe>
+      </center>
+    </div>
+
+    <div class="all">
+      <div id="Avengers"></div>
+
+      <div id="hide">
+        <button>RESTART</button>
+      </div>
+      <div id="aven-p"></div>
+      <div id="coms"></div>
+    </div>
+  </body>
+</html>
