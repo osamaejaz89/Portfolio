@@ -1,0 +1,186 @@
+* {
+  font-family: "BentonSans", sans-serif;
+}
+body {
+  background-image: url("./assets/back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.level {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 40%;
+  padding-top: 70px;
+  padding-left: 50px;
+  margin: auto;
+  width: 60%;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.button {
+  margin: auto;
+  width: 10%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#hide {
+  margin: auto;
+  width: 10%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#intro {
+  padding-top: 5%;
+}
+ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-close {
+  display: none;
+}
+
+button {
+  background-color: #f0131e;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+select {
+  background-color: #f0131e;
+  color: white;
+  font-family: "BentonSans", sans-serif;
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 15px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.level div {
+  float: left;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#Avengers,
+#coms {
+  float: left;
+  width: 90%;
+  height: 40%;
+  margin: 12px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+#aven-p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  color: white;
+  font-weight: bolder;
+}
+#score_board {
+  background-color: #f0131e;
+  border-radius: 15%;
+  padding-bottom: 8%;
+  width: 40%;
+  height: 25%;
+  text-align: center;
+}
+.countdown {
+  border-radius: 10%;
+  padding-bottom: 4%;
+  width: 40%;
+  height: 25%;
+  text-align: center;
+}
+label {
+  border-radius: 10%;
+  padding-bottom: 4%;
+  width: 40%;
+  height: 25%;
+  text-align: center;
+}
+#Avengers div,
+#coms div {
+  float: left;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+}
+
+#Avengers div img,
+#coms div img {
+  border: 5px solid white;
+  border-radius: 20px;
+}
+#Avengers div img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#Avengers div {
+  z-index: 50;
+}
+
+#coms div {
+  font-size: 35px;
+  line-height: 200px;
+  text-align: center;
+  color: cadetblue;
+  font-style: italic;
+  z-index: 10;
+}
+
+#modalContainer {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
