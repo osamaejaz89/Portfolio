@@ -1,0 +1,9 @@
+Replace this file with your real resume as `resume.pdf` in the `public/` folder.
+
+The "Download Resume" button in the Navbar, Hero, and Contact sections all
+link to `/resume.pdf`, which maps to `public/resume.pdf` at build time.
+
+Steps:
+  1. Drop your resume PDF into `public/` and name it `resume.pdf`.
+  2. (Optional) Delete this README file.
+  3. Rebuild / refresh — no code changes required.
